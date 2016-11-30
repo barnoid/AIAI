@@ -1,0 +1,7 @@
+#!/bin/bash -e
+
+cd src
+ruby bookise.rb > ../aiai.tex
+cd ..
+pdflatex aiai.tex
+pdflatex aiai.tex
